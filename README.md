@@ -51,7 +51,6 @@ The Node.js backend API that controls active chess games, user authentication, i
 - **Firebase**:
   - **Authentication**: Provides secure sign-in via various methods, including email/password, Google, etc.
   - **Firestore**: A NoSQL database optimized for real-time data storage and synchronization.
-  - **Authentication**: Provides secure sign-in via various methods, including email/password, Google, etc.
   - **Admin**: Firebase Admin SDK is used for server-side operations like managing users, securely accessing Firebase databases, and performing other privileged tasks such as setting up custom claims for user roles and managing user accounts programmatically.
 
 ## Getting Started
