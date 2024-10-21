@@ -1,21 +1,21 @@
-<img width="80" src="https://github.com/AdenWhitworth/online_chess_with_friends_Front-End/raw/master/src/Images/King%20Logo%20Black.svg" alt="Online Chess With Friends Logo">
+<img width="80" src="https://github.com/AdenWhitworth/checkmate_Front-End/raw/master/src/Images/King%20Logo%20Black.svg" alt="Checkmate Logo">
 
-# Online Chess With Friends
+# Checkmate
 
-Welcome to the Online Chess With Friends project! This repository contains links to my personal projects related to the Online Chess With Friends application, which allows players to challenge friends to chess matches, chat during the game, and track their rankings. The project is split into two repositories: the **Frontend** and **Backend**.
+Welcome to the Checkmate project! This repository contains links to my personal projects related to the Checkmate application, which allows players to challenge friends to chess matches, chat during the game, and track their rankings. The project is split into two repositories: the **Frontend** and **Backend**.
 
 ## Table of Contents
-- [Online Chess With Friends Live Demo](#online-chess-with-friends-live-demo)
-- [Front-End](https://github.com/AdenWhitworth/online_chess_with_friends_Front-End)
-- [Back-End](https://github.com/AdenWhitworth/online_chess_with_friends_Back-End)
+- [Checkmate Demo](#checkmate-demo)
+- [Front-End](https://github.com/AdenWhitworth/checkmate_Front-End)
+- [Back-End](https://github.com/AdenWhitworth/checkmate_Back-End)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
 - [Contribution Guidelines](#contribution-guidelines)
 - [License](#license)
 
-## Online Chess With Friends Live Demo
+## Checkmate Demo
 
-The Online Chess With Friends application is live and can be accessed here: [Online Chess With Friends Demo](https://online-chess-with-friends.web.app/). You can explore all features of the game, including real-time gameplay, chat, and rankings.
+The Checkmate application is live and can be accessed here: [Checkmate Demo](https://checkmateplay.com). You can explore all features of the game, including real-time gameplay, chat, and rankings.
 
 ### Test User Credentials
 
@@ -26,17 +26,18 @@ Try out the app using the following demo accounts:
 
 >**Note**: You can even play against yourself by opening the application in two separate browser windows.
 
-## Front-End: [Online Chess With Friends Front-End](https://github.com/AdenWhitworth/online_chess_with_friends_Front-End)
+## Front-End: [Checkmate Front-End](https://github.com/AdenWhitworth/checkmate_Front-End)
 
-The web-based user interface for the Online Chess With Friends application, built with React, designed for a seamless user experience. It handles all interactions with the game, including making moves, real-time chat, and ranking display.
+The web-based user interface for the Checkmate application, built with React, designed for a seamless user experience. It handles all interactions with the game, including making moves, real-time chat, and ranking display.
 
-## Back-End: [Online Chess With Friends Back-End](https://github.com/AdenWhitworth/online_chess_with_friends_Back-End)
+## Back-End: [Checkmate Back-End](https://github.com/AdenWhitworth/checkmate_Back-End)
 
 The Node.js backend API that controls active chess games, user authentication, in-game chat, and ranking systems. It ensures real-time gameplay and communication through WebSockets.
 
 ## Technologies Used
 
 - **React**: A powerful JavaScript library for building user interfaces, enabling the development of dynamic and responsive web applications.
+- **TypeScript**: A strongly typed superset of JavaScript that enhances code quality and provides better tooling and type safety during development.
 - **HTML/JSX**: The foundational markup language used for structuring the components of the React application, ensuring semantic and accessible content.
 - **CSS**: Styles the application with a modern aesthetic, allowing for flexible and maintainable design.
 - **React Router**: A library that enables dynamic routing in the application, providing a seamless navigation experience for users.
