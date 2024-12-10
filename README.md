@@ -56,6 +56,7 @@ The AI component of Checkmate, developed using TensorFlow and Python, is designe
 - **Node.js**: Backend runtime environment for executing JavaScript on the server.
 - **Express.js**: Web framework for building the RESTful API.
 - **JWT (JSON Web Tokens)**: Used for secure authentication.
+- **onnxruntime-node**:  A high-performance runtime for executing ONNX models in Node.js, enabling seamless integration of AI-powered features such as chess move predictions and strategic analysis into the backend.
 - **Firebase**:
   - **Authentication**: Provides secure sign-in via various methods, including email/password, Google, etc.
   - **Firestore**: A NoSQL database optimized for real-time data storage and synchronization.
