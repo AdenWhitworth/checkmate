@@ -2,12 +2,15 @@
 
 # Checkmate
 
-Welcome to the Checkmate project! This repository contains links to my personal projects related to the Checkmate application, which allows players to challenge friends to chess matches, chat during the game, and track their rankings. The project is split into two repositories: the **Frontend** and **Backend**.
+Welcome to the **Checkmate** project! This application is designed for chess enthusiasts to challenge friends, chat during matches, track their rankings, and hone their skills against various AI-powered bots. The project is structured into three interconnected repositories, each focusing on a core aspect of the application: **Frontend**, **backend**, and **AI**.
+
+Explore each repository to learn more about the features, technologies, and implementation details that make Checkmate a unique and engaging chess platform.
 
 ## Table of Contents
 - [Checkmate Demo](#checkmate-demo)
 - [Front-End](https://github.com/AdenWhitworth/checkmate_Front-End)
 - [Back-End](https://github.com/AdenWhitworth/checkmate_Back-End)
+- [AI](https://github.com/AdenWhitworth/checkmate-AI)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
 - [Contribution Guidelines](#contribution-guidelines)
@@ -28,11 +31,15 @@ Try out the app using the following demo accounts:
 
 ## Front-End: [Checkmate Front-End](https://github.com/AdenWhitworth/checkmate_Front-End)
 
-The web-based user interface for the Checkmate application, built with React, designed for a seamless user experience. It handles all interactions with the game, including making moves, real-time chat, and ranking display.
+The web-based user interface for the Checkmate application, built with React, allows players to compete against live opponents, chat in-game, track their rankings, and practice against human-like AI bots.
 
 ## Back-End: [Checkmate Back-End](https://github.com/AdenWhitworth/checkmate_Back-End)
 
-The Node.js backend API that controls active chess games, user authentication, in-game chat, and ranking systems. It ensures real-time gameplay and communication through WebSockets.
+The Node.js backend API that manages active chess games (human and bot), user authentication, in-game chat, and ELO ranking systems. It ensures smooth, real-time gameplay and communication through WebSockets integration.
+
+## AI: [Checkmate AI](https://github.com/AdenWhitworth/checkmate-AI)
+
+The AI component of Checkmate, developed using TensorFlow and Python, is designed to provide dynamic, skill-matched gameplay for users. Models are trained across various ELO ranges to simulate opponents of differing skill levels. These models are exported in ONNX format for efficient integration with the backend, enabling smooth and responsive gameplay against AI opponents.
 
 ## Technologies Used
 
@@ -53,6 +60,15 @@ The Node.js backend API that controls active chess games, user authentication, i
   - **Authentication**: Provides secure sign-in via various methods, including email/password, Google, etc.
   - **Firestore**: A NoSQL database optimized for real-time data storage and synchronization.
   - **Admin**: Firebase Admin SDK is used for server-side operations like managing users, securely accessing Firebase databases, and performing other privileged tasks such as setting up custom claims for user roles and managing user accounts programmatically.
+- **Chess**: A python library for validating and manipulating chess moves, ensuring the legality of each action during gameplay.
+- **Keras**: A high-level neural network API that simplifies the building and training of machine learning models, used here for rapid development of DNN and CNN models.
+- **Matplotlib**: A Python library for creating visualizations, such as accuracy and loss graphs, to analyze model performance.
+- **NumPy**: A fundamental Python library for numerical computations, particularly useful for manipulating game data and creating training datasets.
+- **ONNX**: (Open Neural Network Exchange) A format for exporting and integrating machine learning models across different frameworks, enabling smooth backend deployment.
+- **Pandas**: A Python library for data manipulation and analysis, used to preprocess and structure PGN game data.
+- **Python**: The primary programming language for the project, powering all data processing, model training, and backend integration.
+- **Scikit-learn (SKLearn)**: A machine learning library for preprocessing data, evaluating models, and implementing supplementary algorithms like scaling and validation.
+- **TensorFlow**: An end-to-end machine learning framework used for building, training, and fine-tuning AI models, including transformers and neural networks.
 
 ## Getting Started
 Instructions for setting up each project can be found in their respective repositories.
