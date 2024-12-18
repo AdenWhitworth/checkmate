@@ -2,7 +2,7 @@
 
 # Checkmate
 
-Welcome to the **Checkmate** project! This application is designed for chess enthusiasts to challenge friends, chat during matches, track their rankings, and hone their skills against various AI-powered bots. The project is structured into three interconnected repositories, each focusing on a core aspect of the application: **Frontend**, **backend**, and **AI**.
+Welcome to the **Checkmate** project! This application is designed for chess enthusiasts to challenge friends, chat during matches, track their rankings, solve over 3,000 interactive puzzles, and hone their skills against various AI-powered bots. The project is structured into three interconnected repositories, each focusing on a core aspect of the application: **Frontend**, **backend**, and **AI**.
 
 Explore each repository to learn more about the features, technologies, and implementation details that make Checkmate a unique and engaging chess platform.
 
@@ -18,7 +18,7 @@ Explore each repository to learn more about the features, technologies, and impl
 
 ## Checkmate Demo
 
-The Checkmate application is live and can be accessed here: [Checkmate Demo](https://checkmateplay.com). You can explore all features of the game, including real-time gameplay, chat, and rankings.
+The Checkmate application is live and can be accessed here: [Checkmate Demo](https://checkmateplay.com). You can explore all features of the game, including real-time gameplay, puzzles, chat, and rankings.
 
 <img width="600" src="https://github.com/AdenWhitworth/aden_whitworth_portfolio/raw/master/src/Images/chess_demo.png" alt="Checkmate Demo">
 
@@ -33,11 +33,11 @@ Try out the app using the following demo accounts:
 
 ## Front-End: [Checkmate Front-End](https://github.com/AdenWhitworth/checkmate_Front-End)
 
-The web-based user interface for the Checkmate application, built with React, allows players to compete against live opponents, chat in-game, track their rankings, and practice against human-like AI bots.
+The web-based user interface for the Checkmate application, built with React, allows players to compete against live opponents, chat in-game, track their rankings, practice chess strategies with interactive puzzles, and compete against human-like AI bots.
 
 ## Back-End: [Checkmate Back-End](https://github.com/AdenWhitworth/checkmate_Back-End)
 
-The Node.js backend API that manages active chess games (human and bot), user authentication, in-game chat, and ELO ranking systems. It ensures smooth, real-time gameplay and communication through WebSockets integration.
+The Node.js backend API manages active chess games (human and bot), user authentication, in-game chat, interactive puzzles, and ELO ranking systems. It ensures smooth, real-time gameplay and communication through WebSockets integration.
 
 ## AI: [Checkmate AI](https://github.com/AdenWhitworth/checkmate-AI)
 
@@ -72,6 +72,7 @@ The AI component of Checkmate, developed using TensorFlow and Python, is designe
 - **Python**: The primary programming language for the project, powering all data processing, model training, and backend integration.
 - **Scikit-learn (SKLearn)**: A machine learning library for preprocessing data, evaluating models, and implementing supplementary algorithms like scaling and validation.
 - **TensorFlow**: An end-to-end machine learning framework used for building, training, and fine-tuning AI models, including transformers and neural networks.
+- **Linchess Database**: Open-source database containing over 5 million chess puzzles with solutions, used to power interactive puzzle features at varying skill levels.
 
 ## Getting Started
 Instructions for setting up each project can be found in their respective repositories.
