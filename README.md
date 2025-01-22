@@ -41,7 +41,7 @@ The Node.js backend API manages active chess games (human and bot), user authent
 
 ## AI: [Checkmate AI](https://github.com/AdenWhitworth/checkmate-AI)
 
-The AI component of Checkmate, developed using TensorFlow and Python, is designed to provide dynamic, skill-matched gameplay for users. Models are trained across various ELO ranges to simulate opponents of differing skill levels. These models are exported in ONNX format for efficient integration with the backend, enabling smooth and responsive gameplay against AI opponents.
+The AI component of Checkmate leverages advanced machine learning models developed using TensorFlow and Python to deliver dynamic, skill-matched gameplay for users. By training specialized transformer models for the opening and midgame phases and integrating the Lichess 7-piece endgame tablebase, the AI provides strategic and adaptive gameplay across all stages of a chess match. Specific models were created to simulate opponents at various ELO ranges, ensuring a tailored experience for players of all skill levels. Exported in ONNX format, these models seamlessly integrate with the backend, enabling smooth and responsive gameplay.
 
 ## Technologies Used
 
@@ -73,6 +73,13 @@ The AI component of Checkmate, developed using TensorFlow and Python, is designe
 - **Scikit-learn (SKLearn)**: A machine learning library for preprocessing data, evaluating models, and implementing supplementary algorithms like scaling and validation.
 - **TensorFlow**: An end-to-end machine learning framework used for building, training, and fine-tuning AI models, including transformers and neural networks.
 - **Linchess Database**: Open-source database containing over 5 million chess puzzles with solutions, used to power interactive puzzle features at varying skill levels.
+- **Cudatoolkit**: A toolkit that provides libraries and tools for GPU-accelerated computing, enabling efficient execution of TensorFlow models on NVIDIA GPUs.
+- **CUDNN**: NVIDIA’s CUDA Deep Neural Network library, used to optimize the performance of deep learning frameworks like TensorFlow during model training and inference.
+- **Conda**: A versatile package manager that simplifies the environment setup and dependency management for Python libraries used in the project.
+- **Tqdm**: A Python library for generating progress bars, providing real-time feedback during data processing and model training.
+- **Onnxoptimizer**: A library for optimizing ONNX models by reducing size and improving inference speed without compromising accuracy.
+- **Onnxruntime**: A high-performance runtime for executing ONNX models, enabling efficient inference of trained models during gameplay.
+- **Tf2onnx**: A conversion tool that seamlessly exports TensorFlow models into the ONNX format, facilitating integration with the Checkmate backend.
 
 ## Getting Started
 Instructions for setting up each project can be found in their respective repositories.
